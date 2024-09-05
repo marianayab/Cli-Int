@@ -1,0 +1,75 @@
+.header{
+  display: flex;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  padding: 13px 0;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+.inner {
+  display: none !important;
+}
+
+.side_nav {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.text-blue{
+  color: #1e3c56;;
+}
+
+.font{
+  font-weight: 600;
+  font-size: 1.15em;
+}
+
+.nav a:hover,.nav a.active {
+    color: cornflowerblue;
+      
+}
+
+.side_nav a:hover,.side_nav a.active {
+  color: cornflowerblue;
+    
+}
+
+.nav button:hover{
+    color: white;
+      
+}
+
+.side_nav button:hover{
+  color: white;
+    
+}
+
+@media (max-width:769px) {
+  .nav {
+      display: none !important;
+  }
+
+  .hamburgur .inner {
+      display: block !important;
+  }
+
+  .hamburgur {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+ 
+}
+
+  

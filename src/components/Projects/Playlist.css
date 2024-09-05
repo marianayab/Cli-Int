@@ -1,0 +1,45 @@
+.wd{
+  width: 100%;
+  margin: 0px;
+}
+
+.project-card {
+  width: 20rem;
+  height: 450px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 0;
+}
+
+.card-image{
+  height: 162px;
+}
+
+.proj-buttons {
+  margin-top: auto;
+}
+
+.down{
+  margin: 50px 0px 50px 0px;
+}
+
+@media (max-width: 768px) {
+  
+  .project-card {
+    width: 90%; /* Make cards take up more width on smaller screens */
+     /* Center cards on smaller screens */
+  }
+  
+  .proj-buttons {
+    flex-direction: column;
+  }
+  
+  .proj-buttons .btn-info {
+    width: 100%;
+    margin-bottom: 10px; /* Add space between buttons */
+  }
+
+  .down{
+    margin: 0px 0px 50px 0px;
+  }
+}

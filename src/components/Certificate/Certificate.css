@@ -1,0 +1,22 @@
+  .certificate-img {
+    max-height: 80vh; /* Adjust the height to fit within the viewport */
+    object-fit: contain; /* Ensures the image scales properly */
+    margin: 0 auto; /* Centers the image */
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 1rem; /* Padding for better spacing */
+    border-radius: 10px; /* Rounded corners for a nicer look */
+  }
+
+  
+  @media (max-width: 768px) {
+    .carousel-caption h3 {
+      font-size: 1.5rem; /* Adjust heading size for smaller screens */
+    }
+    .carousel-caption p {
+      font-size: 1rem; /* Adjust paragraph size for smaller screens */
+    }
+  }
+  

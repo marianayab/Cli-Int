@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  color: #fff;
+  min-height: 250px;
+  background: #21262c;
+
+}
+
+.footer .first,
+.second,
+.third {
+  width: 300px;
+}
+
+.footer .third {
+  margin-bottom: 2em;
+}
+
+@media (max-width: 930px) {
+    .footer{
+        height: 55vh;
+    }
+  .footer_container {
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .footer{
+    height: 87vh;
+  }
+}
