@@ -21,9 +21,9 @@ const projectData = [
     id: 3,
     projectName: "My Portfolio ( UI/UX )",
     desc: "The portfolio features an interactive user interface developed with React, backed by a solidly built Node.js and Express.js server, with MongoDB handling data management.",
-    demo: "https://app.netlify.com/sites/taupe-dragon-385366/deploys/6415f6f6fb143a028302dab4",
+    demo: "https://maria-nayab-9c44a6.netlify.app/",
     imgsrc: "/folio.jpg",
-    code: "",
+    code: "https://github.com/marianayab/Int-Cli",
   },
   {
     id: 4,

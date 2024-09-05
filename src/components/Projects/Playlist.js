@@ -11,7 +11,7 @@ const Playlist = () => {
   useEffect(() => {
     setTimeout(() => {
       setSpin(false);
-    }, 600);
+    }, 350);
   }, []);
 
   return (
