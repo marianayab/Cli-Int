@@ -54,7 +54,7 @@ const Contact = () => {
       console.log(data);
 
 if (data.status==201) {
-  toast.success("Your Response is Submitted");
+  toast.success("Your response has been submitted");
 }
 
     }
