@@ -19,6 +19,10 @@
   margin-top: auto;
 }
 
+.visit:hover{
+  color: white;
+}
+
 .down{
   margin: 50px 0px 50px 0px;
 }
