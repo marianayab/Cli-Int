@@ -14,11 +14,11 @@ const Home = () => {
     { name: "Node.js", icon: <FaNodeJs /> },
     { name: "JavaScript", icon: <FaJsSquare /> },
     { name: "Express.js", icon: <SiExpress /> },
-    { name: "Mysql", icon: <SiMysql /> },
+    { name: "MySQL", icon: <SiMysql /> },
     { name: "HTML5", icon: <FaHtml5 /> },
     { name: "CSS3", icon: <FaCss3Alt /> },
     { name: "Services", icon: <FaAws /> },
-    { name: "Mongodb", icon: <SiMongodb /> },
+    { name: "MongoDB", icon: <SiMongodb /> },
     { name: "Python", icon: <FaPython /> },
     
   ];
