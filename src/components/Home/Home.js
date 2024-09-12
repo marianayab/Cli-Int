@@ -4,20 +4,23 @@ import Button from "react-bootstrap/Button";
 import Lottie from "lottie-react";
 import animation from "./animation.json";
 import { Dropdown, DropdownButton } from "react-bootstrap";
-import { FaReact, FaNodeJs, FaJsSquare, FaHtml5, FaCss3Alt, FaPython,} from "react-icons/fa";
-import { SiExpress, SiMongodb, } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaJsSquare, FaHtml5, FaCss3Alt, FaPython, FaAws } from "react-icons/fa";
+import { SiExpress, SiMongodb, SiMysql } from 'react-icons/si';
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 
 const Home = () => {
   const skills = [
-    { name: "React", icon: <FaReact /> },
+    { name: "React.js", icon: <FaReact /> },
     { name: "Node.js", icon: <FaNodeJs /> },
     { name: "JavaScript", icon: <FaJsSquare /> },
-    { name: "Express", icon: <SiExpress /> },
+    { name: "Express.js", icon: <SiExpress /> },
+    { name: "Mysql", icon: <SiMysql /> },
     { name: "HTML5", icon: <FaHtml5 /> },
     { name: "CSS3", icon: <FaCss3Alt /> },
+    { name: "Services", icon: <FaAws /> },
     { name: "Mongodb", icon: <SiMongodb /> },
     { name: "Python", icon: <FaPython /> },
+    
   ];
 
   const styles = {
