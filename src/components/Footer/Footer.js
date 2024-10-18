@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="container footer_container d-flex justify-content-around flex-wrap">
           <div className="first mt-5">
             <h4>Maria Nayab</h4>
-            <p>@ {year} Maria Nayab all rights reserved.</p>
+            <p>© {year} Maria Nayab all rights reserved.</p>
           </div>
           <div className="second mt-5">
             <h4>Get in touch</h4>
