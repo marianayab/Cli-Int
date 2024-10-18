@@ -52,7 +52,7 @@ const Home = () => {
             </p>
 
             <div className="d-flex btn_div mt-4">
-              <a href="https://fort-280521cvlite.netlify.app/" target="_blank">
+              <a href="https://cvlite.netlify.app/" target="_blank">
                 <Button
                   variant="info"
                   className="text-blue font resume hovr"> Resume </Button> </a>
