@@ -28,6 +28,7 @@
 
 .resume{
   margin: 0px 3px 0px 0px;
+  height: 41px;
 }
 
 .hovr:hover{
@@ -40,10 +41,22 @@
 
 .soc-links{
   margin: 0px 3px 0px 0px;
+  align-items: center;
+}
+
+
+.mylnks{
+  border: none;
+}
+
+.lnk-style{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: inherit;
 }
 
 #dropdown-basic-button {
-  height: 40px;
+  height: 41px;
   background-color: #1e3c56;
   border: #1e3c56;
 }
